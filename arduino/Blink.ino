@@ -1,4 +1,4 @@
-
+//led inserted into pin 13
 int led = 13;
 
 void setup() {                
@@ -8,8 +8,8 @@ void setup() {
 
 
 void loop() {
-  digitalWrite(led, HIGH);   
-  delay(1000);              
-  digitalWrite(led, LOW);    
+  digitalWrite(led, HIGH);  //voltage to led is increased
+  delay(1000);
+  digitalWrite(led, LOW);  //led voltage is decreased  
   delay(1000);              
 }
